@@ -18,3 +18,5 @@ with codeigniter once again, notes for the updated version
 - The Controller loads the model, core libraries, helpers, and any other resources needed to process the specific request.
 - The finalized View is rendered then sent to the web browser to be seen. If caching is enabled, the view is cached first so that on subsequent requests it can be served.
 
+#### The controller is what will become the center of every request to your web application. In very technical CodeIgniter discussions, it may be referred to as the super object. Like any php class, you refer to it within your controllers as $this. Referring to $this is how you will load libraries, views, and generally command the framework.
+
