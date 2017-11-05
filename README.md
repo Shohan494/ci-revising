@@ -20,3 +20,7 @@ with codeigniter once again, notes for the updated version
 
 #### The controller is what will become the center of every request to your web application. In very technical CodeIgniter discussions, it may be referred to as the super object. Like any php class, you refer to it within your controllers as $this. Referring to $this is how you will load libraries, views, and generally command the framework.
 
+## View and Controller
+
+Views are never called directly, they must be loaded by a controller. Remember that in an MVC framework, the Controller acts as the traffic cop, so it is responsible for fetching a particular view. If you have not read the Controllers page you should do so before continuing.
+
